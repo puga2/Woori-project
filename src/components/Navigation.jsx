@@ -161,7 +161,7 @@ const digitalItems = {
 
 const Navigation = () => {
   return (
-    <nav className="">
+    <nav className="z-50 relative">
       <div className="flex flex-col">
         {/* top  */}
         <div className="bg-[#ffffff]">
@@ -261,7 +261,7 @@ const Navigation = () => {
               <li className="group">
                 <Link
                   to="/"
-                  className="text-md text-white/90 hover:text-white bg-amber-600 py-4 tracking-wide "
+                  className="text-md text-white/90 hover:text-white py-4 tracking-wide "
                 >
                   ទំព័រដើម
                 </Link>
@@ -269,7 +269,7 @@ const Navigation = () => {
               <li className="group relative">
                 <Link
                   to="/"
-                  className="text-md text-white/90 hover:text-white bg-amber-600 py-4 tracking-wide  group  "
+                  className="text-md text-white/90 hover:text-white py-4 tracking-wide  group  "
                 >
                   សេវាបុគ្គល <RiArrowDownSFill className="inline-flex" />
                 </Link>
@@ -308,7 +308,7 @@ const Navigation = () => {
               <li className="group relative">
                 <Link
                   to="/"
-                  className="text-md text-white/90 hover:text-white bg-amber-600 py-4 tracking-wide  group  "
+                  className="text-md text-white/90 hover:text-white py-4 tracking-wide  group  "
                 >
                   សេវាអាជីវកម្ម <RiArrowDownSFill className="inline-flex" />
                 </Link>
@@ -346,7 +346,7 @@ const Navigation = () => {
               <li className="group relative">
                 <Link
                   to="/"
-                  className="text-md text-white/90 hover:text-white bg-amber-600 py-4 tracking-wide  group  "
+                  className="text-md text-white/90 hover:text-white py-4 tracking-wide  group  "
                 >
                   សេវាធនាគារ ឌីជីថល <RiArrowDownSFill className="inline-flex" />
                 </Link>
@@ -385,7 +385,7 @@ const Navigation = () => {
               <li className="group">
                 <Link
                   to="/"
-                  className="text-md text-white/90 hover:text-white bg-amber-600 py-4 tracking-wide "
+                  className="text-md text-white/90 hover:text-white py-4 tracking-wide "
                 >
                   ប្រូម៉ូសិន
                 </Link>
@@ -393,7 +393,7 @@ const Navigation = () => {
               <li className="group">
                 <Link
                   to="/"
-                  className="text-md text-white/90 hover:text-white bg-amber-600 py-4 tracking-wide "
+                  className="text-md text-white/90 hover:text-white py-4 tracking-wide "
                 >
                   ព័ត៌មាន
                 </Link>
@@ -402,7 +402,7 @@ const Navigation = () => {
               <li className="group">
                 <Link
                   to="/"
-                  className="text-md text-white/90 hover:text-white bg-amber-600 py-4 tracking-wide "
+                  className="text-md text-white/90 hover:text-white py-4 tracking-wide "
                 >
                   ឱកាសការងារ
                 </Link>
@@ -410,7 +410,7 @@ const Navigation = () => {
               <li className="group">
                 <Link
                   to="/"
-                  className="text-md text-white/90 hover:text-white bg-amber-600 py-4 tracking-wide "
+                  className="text-md text-white/90 hover:text-white py-4 tracking-wide "
                 >
                   ការងារសង្គម
                 </Link>
@@ -418,7 +418,7 @@ const Navigation = () => {
               <li className="group">
                 <Link
                   to="/"
-                  className="text-md text-white/90 hover:text-white bg-amber-600 py-4 tracking-wide "
+                  className="text-md text-white/90 hover:text-white py-4 tracking-wide "
                 >
                   Merchant Discounts
                 </Link>
@@ -426,7 +426,7 @@ const Navigation = () => {
               <li className="group">
                 <Link
                   to="/"
-                  className="text-md text-white/90 hover:text-white bg-amber-600 py-4 tracking-wide "
+                  className="text-md text-white/90 hover:text-white py-4 tracking-wide "
                 >
                   Internet Banking
                 </Link>
