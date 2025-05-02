@@ -55,12 +55,22 @@ const SectionInfo = () => {
 
         {/* category items  */}
         <div className="service bg-white mt-7 rounded-4xl p-10">
-          <h3 className="text-[#0B67AC] font-bold text-xl tracking-wide ">សេវាបុគ្គល</h3>
-          <Link className="me-auto bg-[#E9F6FA] px-5 py-4  w-full my-7 ms-auto  rounded-xl text-[#62CEF6]">ស្វែងយល់ពីសេវាកម្ម</Link>
+          <h3 className="text-[#0B67AC] font-bold text-xl tracking-wide ">
+            សេវាបុគ្គល
+          </h3>
+          <div className="flex items-end justify-end my-4">
+            <Link className="ms-auto bg-[#E9F6FA] px-5 py-4 rounded-xl text-[#62CEF6]">
+              ស្វែងយល់ពីសេវាកម្ម
+            </Link>
+          </div>
           <div className="flex justify-between gap-5">
             <div>
-              <h4 className="text-black font-bold text-xl mb-2">ស​ន្សំ/បញ្ញើ</h4>
-              <p className="text-black/40">ពិនិត្យមើលទឹកប្រាក់របស់អ្នកកើនជាមួយយើងខ្ញុំ</p>
+              <h4 className="text-black font-bold text-xl mb-2">
+                ស​ន្សំ/បញ្ញើ
+              </h4>
+              <p className="text-black/40">
+                ពិនិត្យមើលទឹកប្រាក់របស់អ្នកកើនជាមួយយើងខ្ញុំ
+              </p>
             </div>
             <div>
               <h4>ស​ន្សំ/បញ្ញើ</h4>
